@@ -34,12 +34,6 @@
       "title": "Funding Opportunities"
     },
     {
-      "source": "https://psychology.manoa.hawaii.edu/undergraduate/",
-      "destination": "/undergraduate/",
-      "file": "undergraduate/index.html",
-      "title": "Undergraduate Overview"
-    },
-    {
       "source": "https://psychology.manoa.hawaii.edu/minor/",
       "destination": "/undergraduate/minor.html",
       "file": "undergraduate/minor.html",
@@ -110,12 +104,6 @@
       "destination": "/undergraduate/psy-courses.html",
       "file": "undergraduate/psy-courses.html",
       "title": "PSY Courses"
-    },
-    {
-      "source": "https://psychology.manoa.hawaii.edu/graduate/",
-      "destination": "/graduate/",
-      "file": "graduate/index.html",
-      "title": "Graduate Overview"
     },
     {
       "source": "https://psychology.manoa.hawaii.edu/ma-degree/",

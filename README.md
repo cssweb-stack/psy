@@ -20,7 +20,7 @@ npm run verify
 
 ## Source and review
 
-- `src/`: 57 content pages; the shared build adds `/privacy.html`.
+- `src/`: 55 content pages; the shared build adds `/privacy.html`.
 - `reference/migration-report.md`: short migration summary and leftovers.
 - `reference/migration-report.json`: full source-to-destination map.
 - `reference/psychologypsy.WordPress.2026-11-10.xml`: original export, never published.
@@ -31,12 +31,12 @@ npm run verify
 The reviewed PSY worksheet and conversation determine the structure. Original WordPress
 sidebar links are ordinary links below content. No sidebar layouts or faculty contact/photo
 blocks were migrated. Faculty biographies start at Background. Undergraduate/Graduate
-introductions moved to Why Study PSY; Overview pages remain concise program/resource guides.
+introductions and supporting links moved to Why Study PSY; both Overview pages are removed.
 
 ## Shared configuration
 
 Edit `../css-shared/src/data/units/psy/` for navigation, identity, hero settings,
-hero assignments, analytics, search, and catalog links. All 58 page URLs currently use
+hero assignments, analytics, search, and catalog links. All 56 page URLs currently use
 `/media/heroes/saunders-mural/01.webp` as their temporary hero. `site-settings.json`
 controls height, overlay, visibility, and layout guides.
 

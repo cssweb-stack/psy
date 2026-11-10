@@ -1,12 +1,12 @@
 # PSY migration review
 
-Built **57 content pages plus one shared Privacy Policy** from **62 WordPress pages**.
+Built **55 content pages plus one shared Privacy Policy** from **62 WordPress pages**.
 Includes **21 current faculty biographies**, in worksheet order on the faculty index.
 Every page uses the same temporary Saunders mural hero, with per-site JSON settings.
 
 - Full-width, single-column content; no sidebars or WordPress layout styles.
 - Useful sidebar links retained as plain links beneath the content.
-- Both Overview pages retained; their introductory copy moved to Why Study PSY.
+- Both Overview pages removed; their introductory copy and supporting links are on Why Study PSY.
 - Diversity and Program Areas use folders with index pages and supporting pages.
 - Standalone Courses, Contact, and Support PSY live at the root.
 - Tables use the shared styling and gray sections, with labeled cards below desktop width.
@@ -29,7 +29,7 @@ saved in `reference/leftover-pages/`; the complete XML is also retained.
 ## Content to review tomorrow
 
 - Why Study PSY now combines the existing undergraduate and graduate introductions;
-  check the resulting copy and the concise Overview pages.
+  check the resulting copy and consolidated resource links.
 - Existing copy was migrated, not fact-checked: Home still mentions approaching a
   centennial, and CCBT's legacy emergency/contact numbers need verification before launch.
 - Hero selection is intentionally deferred. No new photography or social preview image
@@ -38,7 +38,7 @@ saved in `reference/leftover-pages/`; the complete XML is also retained.
 
 ## Validation
 
-The normal local build and GitHub Pages `/psy/` build both passed. Checked all 58 pages
+The normal local build and GitHub Pages `/psy/` build both passed. Checked all 56 pages
 for local links/assets, a single H1, placeholder hero coverage, and absence of sidebars.
 All 21 biographies retain the complete Background-and-beyond source text, without
 faculty contact/photo blocks. Shared repository checks passed.
