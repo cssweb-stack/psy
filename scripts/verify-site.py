@@ -6,6 +6,9 @@ import json,re,sys,xml.etree.ElementTree as ET
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'_site'
 prefix=sys.argv[1].rstrip('/') if len(sys.argv)>1 else ''
 manifest=json.loads((ROOT/'reference/migration-report.json').read_text())
+shared=ROOT.parent/'css-shared/src/data/units/psy'
+hero_pages=json.loads((shared/'heroes.json').read_text())['pages']
+faculty_hero_pages=json.loads((shared/'faculty-heroes.json').read_text())['pages']
 errors=[];files=list(OUT.rglob('*.html'))
 class Scan(HTMLParser):
  def __init__(self):super().__init__();self.links=[];self.ids=set();self.words=[]
@@ -23,7 +26,11 @@ for f in files:
  scan=Scan();scan.feed(f.read_text());parsed[f]=scan
  html=f.read_text()
  if len(re.findall(r'<h1\b',html))!=1:errors.append(str(f)+': expected one H1')
- if '/media/heroes/saunders-mural/01.webp' not in html:errors.append(str(f)+': missing placeholder hero')
+ rel=str(f.relative_to(OUT))
+ url='/' if rel=='index.html' else '/'+rel[:-10] if rel.endswith('index.html') else '/'+rel
+ assigned=hero_pages.get(url) or faculty_hero_pages.get(url)
+ if not assigned or assigned['image'] not in html:errors.append(str(f)+': missing assigned hero')
+ elif ('/saunders-mural/' if url in faculty_hero_pages else '/shared/') not in assigned['image']:errors.append(str(f)+': incorrect hero collection')
  main=html.split('<main',1)[1].split('</main>',1)[0]
  if '<aside' in main or 'fl-builder' in main or 'gb-headline' in main:errors.append(str(f)+': legacy layout remains')
  if '{{' in html or '{%' in html:errors.append(str(f)+': unrendered template')
@@ -57,4 +64,4 @@ assert len(faculty)==21
 assert len(files)==len(manifest['pages'])+1,(len(files),len(manifest['pages']))
 if errors:
  print('\n'.join(sorted(set(errors))));sys.exit(1)
-print(f'Checked {len(files)} pages: local links/assets, one H1, placeholder heroes, no sidebars, and all 21 complete faculty bios. Prefix: {prefix or "/"}.')
+print(f'Checked {len(files)} pages: local links/assets, one H1, assigned student/mural heroes, no sidebars, and all 21 complete faculty bios. Prefix: {prefix or "/"}.')
