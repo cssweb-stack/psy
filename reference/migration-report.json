@@ -1,0 +1,435 @@
+{
+  "source": "psychologypsy.WordPress.2026-11-10.xml",
+  "sourceSha256": "f31b939e99b27f06a17cf13cc004b597052622f670564f407c41cd165c37c8f4",
+  "sourcePageCount": 62,
+  "pages": [
+    {
+      "source": "https://psychology.manoa.hawaii.edu/",
+      "destination": "/",
+      "file": "index.html",
+      "title": "Home"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/diversity/",
+      "destination": "/diversity/",
+      "file": "diversity/index.html",
+      "title": "Diversity"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/diversity-committee/",
+      "destination": "/diversity/committee.html",
+      "file": "diversity/committee.html",
+      "title": "Diversity Committee"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/diversity-courses/",
+      "destination": "/diversity/courses.html",
+      "file": "diversity/courses.html",
+      "title": "Diversity Courses"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/funding-opportunities/",
+      "destination": "/diversity/funding-opportunities.html",
+      "file": "diversity/funding-opportunities.html",
+      "title": "Funding Opportunities"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/undergraduate/",
+      "destination": "/undergraduate/",
+      "file": "undergraduate/index.html",
+      "title": "Undergraduate Overview"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/minor/",
+      "destination": "/undergraduate/minor.html",
+      "file": "undergraduate/minor.html",
+      "title": "Minor"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/ba-degree/",
+      "destination": "/undergraduate/major-ba.html",
+      "file": "undergraduate/major-ba.html",
+      "title": "Major (BA)"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/bs-degree/",
+      "destination": "/undergraduate/major-bs.html",
+      "file": "undergraduate/major-bs.html",
+      "title": "Major (BS)"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/hybrid-online-ba/",
+      "destination": "/undergraduate/hybrid-online-ba.html",
+      "file": "undergraduate/hybrid-online-ba.html",
+      "title": "Hybrid Online (BA)"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/bam/",
+      "destination": "/undergraduate/psy-bam.html",
+      "file": "undergraduate/psy-bam.html",
+      "title": "BA/MA Pathway (BAM)"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/honors-track/",
+      "destination": "/undergraduate/honors-track.html",
+      "file": "undergraduate/honors-track.html",
+      "title": "Honors Track"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/undergraduate-advising/",
+      "destination": "/undergraduate/advising-support.html",
+      "file": "undergraduate/advising-support.html",
+      "title": "Advising & Support"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/psi-chi/",
+      "destination": "/undergraduate/psi-chi.html",
+      "file": "undergraduate/psi-chi.html",
+      "title": "Psi Chi"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/psi-sigma/",
+      "destination": "/undergraduate/psi-sigma.html",
+      "file": "undergraduate/psi-sigma.html",
+      "title": "Psi Sigma"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/student-learning-outcomes/",
+      "destination": "/undergraduate/student-learning-outcomes.html",
+      "file": "undergraduate/student-learning-outcomes.html",
+      "title": "Student Learning Outcomes"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/research-project-summary/",
+      "destination": "/undergraduate/research-project-summary.html",
+      "file": "undergraduate/research-project-summary.html",
+      "title": "Research Project Summary"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/psy-courses/",
+      "destination": "/undergraduate/psy-courses.html",
+      "file": "undergraduate/psy-courses.html",
+      "title": "PSY Courses"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/graduate/",
+      "destination": "/graduate/",
+      "file": "graduate/index.html",
+      "title": "Graduate Overview"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/ma-degree/",
+      "destination": "/graduate/master-ma.html",
+      "file": "graduate/master-ma.html",
+      "title": "Master’s (MA)"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/phd-degree/",
+      "destination": "/graduate/doctorate-phd.html",
+      "file": "graduate/doctorate-phd.html",
+      "title": "Doctorate (PhD)"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/graduate-program-areas/",
+      "destination": "/graduate/program-areas/",
+      "file": "graduate/program-areas/index.html",
+      "title": "Program Areas"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/community-cultural-developmental/",
+      "destination": "/graduate/program-areas/community-cultural-developmental.html",
+      "file": "graduate/program-areas/community-cultural-developmental.html",
+      "title": "Community, Cultural, and Developmental"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/cognition-neuroscience-social/",
+      "destination": "/graduate/program-areas/cognition-neuroscience-social.html",
+      "file": "graduate/program-areas/cognition-neuroscience-social.html",
+      "title": "Cognition, Neuroscience, & Social"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/psychological-clinical-science/",
+      "destination": "/graduate/program-areas/psychological-clinical-science.html",
+      "file": "graduate/program-areas/psychological-clinical-science.html",
+      "title": "Psychological Clinical Science"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/ccbt/",
+      "destination": "/graduate/program-areas/ccbt.html",
+      "file": "graduate/program-areas/ccbt.html",
+      "title": "Center for Cognitive Behavior Therapy (CCBT)"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/graduate-students/",
+      "destination": "/graduate/current-cohort.html",
+      "file": "graduate/current-cohort.html",
+      "title": "Current Cohort"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/prospective-student-information/",
+      "destination": "/graduate/prospective-students.html",
+      "file": "graduate/prospective-students.html",
+      "title": "Prospective Students"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/applications-admissions/",
+      "destination": "/graduate/applications-admissions.html",
+      "file": "graduate/applications-admissions.html",
+      "title": "Applications & Admissions"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/standards-and-evaluations/",
+      "destination": "/graduate/standards-evaluations.html",
+      "file": "graduate/standards-evaluations.html",
+      "title": "Standards and Evaluations"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/learning-objectives/",
+      "destination": "/graduate/learning-objectives.html",
+      "file": "graduate/learning-objectives.html",
+      "title": "Learning Objectives"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/give-a-gift/",
+      "destination": "/support-psy.html",
+      "file": "support-psy.html",
+      "title": "Support PSY"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/contact/",
+      "destination": "/contact.html",
+      "file": "contact.html",
+      "title": "Contact"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/sakaria-laisene-auelua-toomey/",
+      "destination": "/faculty/sakaria-laisene-auelua-toomey.html",
+      "file": "faculty/sakaria-laisene-auelua-toomey.html",
+      "title": "Sakaria Laisene Auelua-Toomey"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/charlene-baker/",
+      "destination": "/faculty/charlene-baker.html",
+      "file": "faculty/charlene-baker.html",
+      "title": "Charlene Baker"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/john-barile/",
+      "destination": "/faculty/john-barile.html",
+      "file": "faculty/john-barile.html",
+      "title": "John (Jack) Barile"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/patricia-couvillon/",
+      "destination": "/faculty/patricia-couvillon.html",
+      "file": "faculty/patricia-couvillon.html",
+      "title": "Patricia Couvillon"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/patrick-goh/",
+      "destination": "/faculty/patrick-goh.html",
+      "file": "faculty/patrick-goh.html",
+      "title": "Patrick Goh"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/krista-a-haapanen/",
+      "destination": "/faculty/krista-a-haapanen.html",
+      "file": "faculty/krista-a-haapanen.html",
+      "title": "Krista A. Haapanen"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/cassandra-l-hendrix/",
+      "destination": "/faculty/cassandra-l-hendrix.html",
+      "file": "faculty/cassandra-l-hendrix.html",
+      "title": "Cassandra L. Hendrix"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/i-sak-kim/",
+      "destination": "/faculty/i-sak-kim.html",
+      "file": "faculty/i-sak-kim.html",
+      "title": "I sak Kim"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/janet-latner/",
+      "destination": "/faculty/janet-latner.html",
+      "file": "faculty/janet-latner.html",
+      "title": "Janet Latner"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/arkadiy-maksimovskiy/",
+      "destination": "/faculty/arkadiy-maksimovskiy.html",
+      "file": "faculty/arkadiy-maksimovskiy.html",
+      "title": "Arkadiy Maksimovskiy"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/akihiko-masuda/",
+      "destination": "/faculty/akihiko-masuda.html",
+      "file": "faculty/akihiko-masuda.html",
+      "title": "Akihiko Masuda"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/ashley-maynard/",
+      "destination": "/faculty/ashley-maynard.html",
+      "file": "faculty/ashley-maynard.html",
+      "title": "Ashley Maynard"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/christina-moyer/",
+      "destination": "/faculty/christina-moyer.html",
+      "file": "faculty/christina-moyer.html",
+      "title": "Christina Moyer"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/brad-nakamura/",
+      "destination": "/faculty/brad-nakamura.html",
+      "file": "faculty/brad-nakamura.html",
+      "title": "Brad Nakamura"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/tony-papa/",
+      "destination": "/faculty/anthony-papa.html",
+      "file": "faculty/anthony-papa.html",
+      "title": "Anthony Papa"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/santiago-papini/",
+      "destination": "/faculty/santiago-papini.html",
+      "file": "faculty/santiago-papini.html",
+      "title": "Santiago Papini"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/kristin-pauker/",
+      "destination": "/faculty/kristin-pauker.html",
+      "file": "faculty/kristin-pauker.html",
+      "title": "Kristin Pauker"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/joni-sasaki/",
+      "destination": "/faculty/joni-sasaki.html",
+      "file": "faculty/joni-sasaki.html",
+      "title": "Joni Sasaki"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/scott-sinnett/",
+      "destination": "/faculty/scott-sinnett.html",
+      "file": "faculty/scott-sinnett.html",
+      "title": "Scott Sinnett"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/jonas-vibell/",
+      "destination": "/faculty/jonas-vibell.html",
+      "file": "faculty/jonas-vibell.html",
+      "title": "Jonas Vibell"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/yiyuan-xu/",
+      "destination": "/faculty/yiyuan-xu.html",
+      "file": "faculty/yiyuan-xu.html",
+      "title": "Yiyuan Xu"
+    },
+    {
+      "source": "Undergraduate and Graduate overview introductions",
+      "destination": "/about-psy/why-study-psy.html",
+      "file": "about-psy/why-study-psy.html",
+      "title": "Why Study PSY"
+    },
+    {
+      "source": "https://psychology.manoa.hawaii.edu/faculty/",
+      "destination": "/faculty/",
+      "file": "faculty/index.html",
+      "title": "Faculty"
+    },
+    {
+      "source": null,
+      "destination": "/courses.html",
+      "file": "courses.html",
+      "title": "Courses"
+    }
+  ],
+  "facultyCount": 21,
+  "leftovers": [
+    {
+      "title": "Lorey Takahashi",
+      "slug": "lorey-takahashi",
+      "status": "draft",
+      "source": "https://psychology.manoa.hawaii.edu/?page_id=1411"
+    },
+    {
+      "title": "Kentaro Hayashi",
+      "slug": "kentaro-hayashi",
+      "status": "draft",
+      "source": "https://psychology.manoa.hawaii.edu/?page_id=1462"
+    },
+    {
+      "title": "OLD-applications-admissions",
+      "slug": "old-applications-admissions",
+      "status": "publish",
+      "source": "https://psychology.manoa.hawaii.edu/old-applications-admissions/"
+    },
+    {
+      "title": "Leon James",
+      "slug": "leon-james",
+      "status": "publish",
+      "source": "https://psychology.manoa.hawaii.edu/leon-james/"
+    },
+    {
+      "title": "Kelly Vitousek",
+      "slug": "kelly-vitousek",
+      "status": "publish",
+      "source": "https://psychology.manoa.hawaii.edu/kelly-vitousek/"
+    },
+    {
+      "title": "Jillian Janowiak",
+      "slug": "jillian-janowiak",
+      "status": "publish",
+      "source": "https://psychology.manoa.hawaii.edu/jillian-janowiak/"
+    }
+  ],
+  "sharedPrivacyReplaces": "https://psychology.manoa.hawaii.edu/privacy-policy/",
+  "media": {
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2023/08/comg2-jpg.webp": "/media/content/81bb7f1b-comg2-jpg.webp",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2020/05/4S6D0650.jpg": "/media/content/a3b380e4-4S6D0650.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2019/07/honors-program-full.png": "/media/content/d3ba763e-honors-program-full.png",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2019/07/psi-chi.png": "/media/content/72211f87-psi-chi.png",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2019/07/Psi-Sigma-Logo-crop.png": "/media/content/c464701b-Psi-Sigma-Logo-crop.png",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2019/07/clinical.jpg": "/media/content/984e9955-clinical.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2019/07/cognition-neuroscience-social.jpg": "/media/content/335f2a3b-cognition-neuroscience-social.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2019/07/community-cultural-developmental.jpg": "/media/content/8d5476b7-community-cultural-developmental.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2019/07/ccd-1.png": "/media/content/a33b7b56-ccd-1.png",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2021/06/cns-sp21.png": "/media/content/51c8d5c8-cns-sp21.png",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2019/08/ccbt.jpg": "/media/content/b90965e4-ccbt.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/08/Nicole-Alarcon.jpg": "/media/content/7cf08933-Nicole-Alarcon.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/09/Purva-Deshpande.jpg": "/media/content/ea16df67-Purva-Deshpande.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/04/Danielle-Dgheim.jpg": "/media/content/a7730647-Danielle-Dgheim.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/04/Shan-Gao.jpg": "/media/content/7427859d-Shan-Gao.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/09/Maria-Hanano.jpg": "/media/content/70579c6e-Maria-Hanano.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/08/Callum-Henwood.jpg": "/media/content/c59c1618-Callum-Henwood.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/04/Dorian-Higashi.jpg": "/media/content/944285b3-Dorian-Higashi.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/03/Layla-Kratovic.jpg": "/media/content/dba1a48d-Layla-Kratovic.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/04/Stephanie-Lin.jpg": "/media/content/4d4b543d-Stephanie-Lin.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/04/Raissa-Lou.jpg": "/media/content/0359f904-Raissa-Lou.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/03/Aaron-Nakamura.jpg": "/media/content/57ee9c61-Aaron-Nakamura.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/04/Grace-Mellor-1.jpg": "/media/content/ef3df53f-Grace-Mellor-1.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/04/IMG_2461.jpg": "/media/content/d1fe5be3-IMG_2461.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/09/Sheemrun-Ranjan.jpg": "/media/content/5aa6d8bd-Sheemrun-Ranjan.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/04/Cerila-Rapadas.jpg": "/media/content/e3fd25c4-Cerila-Rapadas.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/08/Alondra-Reyes.jpg": "/media/content/68bbc2ea-Alondra-Reyes.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/04/Maximillian-Soares-Miehlstein.jpg": "/media/content/b3682a7b-Maximillian-Soares-Miehlstein.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/03/Anamalia-Suesue.jpg": "/media/content/b6112dc0-Anamalia-Suesue.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/04/Jinke-Sun.jpg": "/media/content/cf860667-Jinke-Sun.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/08/Sydney-Takemoto.jpg": "/media/content/34717136-Sydney-Takemoto.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/04/Thu-Allie-Vo.jpg": "/media/content/28706876-Thu-Allie-Vo.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/04/Rachel-M-Ward.jpg": "/media/content/f065d184-Rachel-M-Ward.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/04/Elizabeth-Weitz.jpg": "/media/content/e1bdc961-Elizabeth-Weitz.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/08/Alana-Wickham.jpg": "/media/content/100e4521-Alana-Wickham.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2025/03/Ashlyn-Wong.jpg": "/media/content/4b71f904-Ashlyn-Wong.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2026/09/PSY-Grad.png": "/media/content/b622bf1d-PSY-Grad.png",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2019/07/graduate-04-3.jpg": "/media/content/b6a398cd-graduate-04-3.jpg",
+    "https://psychology.manoa.hawaii.edu/wp-content/uploads/2019/05/Sakamaki_Hall.jpg": "/media/content/b6688351-Sakamaki_Hall.jpg"
+  },
+  "retainedLegacyLinks": [],
+  "embedsConvertedToLinks": [
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.3402258787273!2d-157.8191609850628!3d21.297568685853356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c006d99199cc4f5%3A0xe762925583382899!2sSakamaki+Hall%2C+Honolulu%2C+HI+96822!5e0!3m2!1sen!2sus!4v1548121472866"
+  ],
+  "overviewContentMovedTo": "/about-psy/why-study-psy.html"
+}

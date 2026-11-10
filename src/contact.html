@@ -1,0 +1,32 @@
+---
+layout: shell.njk
+title: "Contact"
+permalink: "/contact.html"
+---
+<div class="page-section">
+<div class="container content-section">
+<div class="row gx-0 gx-sm-5 gx-lg-5">
+<div class="col-12">
+<h1>Contact the Department of Psychology</h1>
+<p class="intro">We are open Monday-Friday from 8 am to Noon and 1 pm to 4:30 pm. We are closed on weekends and all <a href="https://www.hawaii.edu/academic-calendar/">state holidays</a>.</p>
+{% set building = common.buildings[site.building] %}
+<h2>Main Office</h2>
+<address>{% for line in site.address %}{{ line | escape }}{% if not loop.last %}<br>{% endif %}{% endfor %}</address>
+<p>Telephone: <a href="{{ site.phone.href | escape }}">{{ site.phone.label | escape }}</a><br>Fax: (808) 956-4700<br>Email: <a href="{{ site.email.href | escape }}">{{ site.email.label | escape }}</a></p>
+{% if building.mapEmbedUrl %}<iframe class="map-embed" title="Google Map showing Sakamaki Hall at UH Mānoa" src="{{ building.mapEmbedUrl | escape }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>{% endif %}
+<p>All inquiries regarding undergraduate study should be directed to <a href="mailto:psyadv@hawaii.edu">psyadv@hawaii.edu</a>.</p>
+<p>All inquiries regarding graduate study should be directed to <a href="mailto:gradpsy@hawaii.edu">gradpsy@hawaii.edu</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="page-section page-section--gray">
+<div class="container content-section">
+<div class="row gx-0 gx-sm-5 gx-lg-5">
+<div class="col-12">
+<table class="content-table content-table--responsive" role="table"><caption>Departmental Contacts</caption><thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">Role</th><th scope="col" role="columnheader">Name</th><th scope="col" role="columnheader">Email</th></tr></thead><tbody role="rowgroup"><tr role="row"><td role="cell"><span class="content-table-label" aria-hidden="true">Role</span><span>Department Chair</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Name</span><span>Charlene Baker</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Email</span><span><a href="mailto:bakercha@hawaii.edu">bakercha@hawaii.edu</a></span></td></tr><tr role="row"><td role="cell"><span class="content-table-label" aria-hidden="true">Role</span><span>Graduate Studies Chair</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Name</span><span>Kristin Pauker</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Email</span><span><a href="mailto:kpauker@hawaii.edu">kpauker@hawaii.edu</a></span></td></tr><tr role="row"><td role="cell"><span class="content-table-label" aria-hidden="true">Role</span><span>Undergraduate Studies Chair</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Name</span><span>Scott Sinnett</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Email</span><span><a href="mailto:ssinnett@hawaii.edu">ssinnett@hawaii.edu</a></span></td></tr><tr role="row"><td role="cell"><span class="content-table-label" aria-hidden="true">Role</span><span>Educational Specialist</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Name</span><span>Teri Imanaka</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Email</span><span><a href="mailto:imanaka@hawaii.edu">imanaka@hawaii.edu</a></span></td></tr><tr role="row"><td role="cell"><span class="content-table-label" aria-hidden="true">Role</span><span>Clinical Studies Program Specialist</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Name</span><span>Claire Wood</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Email</span><span><a href="mailto:woodca@hawaii.edu">woodca@hawaii.edu</a></span></td></tr></tbody></table>
+<table class="content-table content-table--responsive" role="table"><caption>Program Directors</caption><thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">Role</th><th scope="col" role="columnheader">Name</th><th scope="col" role="columnheader">Email</th></tr></thead><tbody role="rowgroup"><tr role="row"><td role="cell"><span class="content-table-label" aria-hidden="true">Role</span><span>Psychological Clinical Science</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Name</span><span>Anthony Papa</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Email</span><span><a href="mailto:papaa@hawaii.edu">papaa@hawaii.edu</a></span></td></tr><tr role="row"><td role="cell"><span class="content-table-label" aria-hidden="true">Role</span><span>Cognition, Neuroscience, and Social</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Name</span><span>Joni Sasaki</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Email</span><span><a href="mailto:yjoni@hawaii.edu">yjoni@hawaii.edu</a></span></td></tr><tr role="row"><td role="cell"><span class="content-table-label" aria-hidden="true">Role</span><span>Community, Cultural, and Developmental</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Name</span><span>Krista Haapanen</span></td><td role="cell"><span class="content-table-label" aria-hidden="true">Email</span><span><a href="mailto:haapanen@hawaii.edu">haapanen@hawaii.edu</a></span></td></tr></tbody></table>
+</div>
+</div>
+</div>
+</div>
