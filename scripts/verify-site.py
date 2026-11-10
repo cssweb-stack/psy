@@ -30,7 +30,7 @@ for f in files:
  url='/' if rel=='index.html' else '/'+rel[:-10] if rel.endswith('index.html') else '/'+rel
  assigned=hero_pages.get(url) or faculty_hero_pages.get(url)
  if not assigned or assigned['image'] not in html:errors.append(str(f)+': missing assigned hero')
- elif ('/saunders-mural/' if url in faculty_hero_pages else '/shared/') not in assigned['image']:errors.append(str(f)+': incorrect hero collection')
+ elif ('/saunders-mural/' if url in faculty_hero_pages else '/students/') not in assigned['image']:errors.append(str(f)+': incorrect hero collection')
  main=html.split('<main',1)[1].split('</main>',1)[0]
  if '<aside' in main or 'fl-builder' in main or 'gb-headline' in main:errors.append(str(f)+': legacy layout remains')
  if '{{' in html or '{%' in html:errors.append(str(f)+': unrendered template')
