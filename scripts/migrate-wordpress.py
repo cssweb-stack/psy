@@ -57,7 +57,7 @@ faculty_slugs={s for _,s in FACULTY}
 assert all(slug in pages for slug in M),set(M)-set(pages)
 links={urlsplit(pages[s].findtext('link')).path.rstrip('/') or '/':dest for s,(dest,title) in M.items()}
 links.update({'/faculty':'/faculty/','/privacy-policy':'/privacy.html','/clinical-psychology':M['psychological-clinical-science'][0],'/old-applications-admissions':M['applications-admissions'][0]})
-links.update({'/undergraduate':'/about-psy/why-study-psy.html#undergraduate-study','/graduate':'/about-psy/why-study-psy.html#graduate-study'})
+links.update({'/undergraduate':'/about/why-study-psy.html#undergraduate-study','/graduate':'/about/why-study-psy.html#graduate-study'})
 ids={wp(i,'post_id'):links.get(urlsplit(i.findtext('link')).path.rstrip('/') or '/') for i in pages.values()}
 assets={};retained=set();iframes=[]
 
@@ -302,7 +302,7 @@ for slug in ('undergraduate','graduate'):
  why+='\n<h2>'+('Undergraduate Resources' if slug=='undergraduate' else 'Graduate Resources')+'</h2>\n'+resources
 for slug,(url,title) in M.items():
  if slug not in ('undergraduate','graduate'):write(url,title,bodies[slug],pages[slug].findtext('link'))
-write('/about-psy/why-study-psy.html','Why Study PSY',why,'Undergraduate and Graduate overview introductions')
+write('/about/why-study-psy.html','Why Study PSY',why,'Undergraduate and Graduate overview introductions')
 write('/faculty/','Faculty','<h1>Faculty</h1>\n'+linked_list([(name,M[slug][0]) for name,slug in FACULTY]),pages['faculty'].findtext('link'))
 write('/courses.html','Courses','<h1>Courses</h1>\n<p class="intro">Find psychology class availability, course descriptions, and catalog information.</p>\n<p>For guidance on advanced topics, research, and practicum credits, see <a href="'+local_link('/undergraduate/psy-courses.html')+'">PSY Courses</a>.</p>\n{% include "layouts/content/course-resources.njk" %}')
 
@@ -313,6 +313,6 @@ hero={'image':placeholder,'position':'center center','alt':'Temporary hero: deta
 reference=ROOT/'reference';reference.mkdir(exist_ok=True)
 if SOURCE.resolve() != (reference/SOURCE.name).resolve():shutil.copyfile(SOURCE,reference/SOURCE.name)
 leftovers=[{'title':i.findtext('title'),'slug':s,'status':wp(i,'status'),'source':i.findtext('link')} for s,i in pages.items() if s not in M and s not in ('faculty','privacy-policy')]
-manifest={'source':SOURCE.name,'sourceSha256':hashlib.sha256(SOURCE.read_bytes()).hexdigest(),'sourcePageCount':len(pages),'pages':report,'facultyCount':len(FACULTY),'leftovers':leftovers,'sharedPrivacyReplaces':pages['privacy-policy'].findtext('link'),'media':assets,'retainedLegacyLinks':sorted(retained),'embedsConvertedToLinks':sorted(set(iframes)),'overviewContentMovedTo':'/about-psy/why-study-psy.html'}
+manifest={'source':SOURCE.name,'sourceSha256':hashlib.sha256(SOURCE.read_bytes()).hexdigest(),'sourcePageCount':len(pages),'pages':report,'facultyCount':len(FACULTY),'leftovers':leftovers,'sharedPrivacyReplaces':pages['privacy-policy'].findtext('link'),'media':assets,'retainedLegacyLinks':sorted(retained),'embedsConvertedToLinks':sorted(set(iframes)),'overviewContentMovedTo':'/about/why-study-psy.html'}
 (reference/'migration-report.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 print('Created',len(report),'content pages,',len(FACULTY),'faculty bios;',len(leftovers),'leftovers;',len(assets),'inline assets.')
